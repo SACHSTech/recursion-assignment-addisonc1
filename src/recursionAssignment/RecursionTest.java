@@ -32,5 +32,12 @@ public class RecursionTest{
         assertEquals(Recursion.count7(717),2);
 
     }
+    @Test
+    public void Test2(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(Recursion.count7(7),1);
     
+    }
 }
