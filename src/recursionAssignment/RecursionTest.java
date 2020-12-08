@@ -45,7 +45,7 @@ public class RecursionTest{
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
-        assertEquals(Recursion.pairStar(hello),hel*lo);
+        assertEquals(Recursion.pairStar("hello"),"hel*lo");
     
     }
 }

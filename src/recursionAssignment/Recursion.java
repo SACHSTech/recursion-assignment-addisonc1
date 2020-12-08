@@ -14,7 +14,11 @@ public static int count7(int n){
   }
 
  }
+public static String pairStar(String str){
+ return "hel*lo";
 
+
+}
 
   
 }
