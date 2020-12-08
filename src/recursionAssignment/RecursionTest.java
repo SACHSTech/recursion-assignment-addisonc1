@@ -40,4 +40,12 @@ public class RecursionTest{
         assertEquals(Recursion.count7(7),1);
     
     }
+    @Test
+    public void Test3(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(Recursion.pairStar(hello),hel*lo);
+    
+    }
 }
