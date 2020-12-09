@@ -1,6 +1,13 @@
 package recursionAssignment;
 
 public class Recursion{
+/**
+* counts the 7's in a given number
+*
+* @param int n is the give number to have the count the 7s
+* @return returns the number of 7
+* @author Addison chan
+*/
 
 public static int count7(int n){
  if (7>n){
@@ -14,6 +21,13 @@ public static int count7(int n){
   }
 
  }
+ /**
+*putting pair letters a * inbetween them
+*
+* @String str given word 
+* @return returns string with a new 
+* @author Addison chan
+*/
 public static String pairStar(String str){
  if(str.length() < 2){
    return str;
@@ -27,6 +41,13 @@ public static String pairStar(String str){
  
 }
 }
+/**
+* cleans duplicates of letters in the given string 
+*
+* @string str is the given string 
+* @return returns the string with no duplicates 
+* @author Addison chan
+*/
 public static String stringClean(String str){
   if(str.length() <2)
     return str;
