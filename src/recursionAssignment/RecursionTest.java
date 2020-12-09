@@ -76,8 +76,23 @@ public class RecursionTest{
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
-        assertEquals(Recursion.stringClean("aaaa"),"a");
+        assertEquals(Recursion.stringClean("yyzzza"),"yza");
     
     }
+     @Test
+    public void Test8(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(Recursion.stringClean("ssttaa"),"sta");
     
+    }
+     @Test
+    public void Test9(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(Recursion.stringClean("yyyyyyeer"),"yer");
+    
+    }
 }
