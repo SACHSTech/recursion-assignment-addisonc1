@@ -27,5 +27,8 @@ public static String pairStar(String str){
  
 }
 }
+public static String stringClean(String str){
+  return "a";
 
+}
 }
