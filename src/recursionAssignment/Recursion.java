@@ -28,5 +28,4 @@ public static String pairStar(String str){
 }
 }
 
-  
 }
